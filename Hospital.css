@@ -1,0 +1,295 @@
+.Logo_Div{
+    margin-left: 0;
+}
+
+.HospitalName{
+    text-align: center;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo{
+    width: 500px;
+    height: 350px;
+    margin: 0;
+    padding-left: 0;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+p{
+    font-weight: lighter;
+    text-justify: inter-word;
+}
+
+
+.AboutSection{
+  line-height: 50px;
+    background-color: grey;
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    
+   
+}
+
+
+.ServicesSection{
+    background-color: rgb(245, 14, 110);
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.row{
+  display: flex;
+}
+
+.pharmacy{
+  font-size: 20px;
+  color: indigo;
+  float: left;
+}
+
+.oncology{
+  font-size: 20px;
+  color: aqua;
+}
+
+.lab{
+  font-size: 20px;
+  color: gold;
+}
+
+.column {
+  text-align: justify;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
+
+.OurTeamsSection{
+    background-color: rgb(14, 245, 68); 
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    grid-template-columns: auto auto auto;
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+.Teamstyle{
+  display: flex;
+}
+
+
+
+
+/* Clear floats after the columns */
+
+
+.flip-card {
+  margin-right: 195px;
+    padding: 5px;
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    perspective: 1000px;
+  }
+  img{
+    width: 200px;
+    height: 100%;
+
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color:  rgb(14, 245, 68);
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+  }
+
+
+
+
+.ContactUsSection{
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-font-smoothing:antialiased;
+  -moz-font-smoothing:antialiased;
+  -o-font-smoothing:antialiased;
+  font-smooth: antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+
+
+.container {
+  max-width:400px;
+  width:100%;
+  margin:0 auto;
+  position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+  background:#c47fdb;
+  padding:25px;
+  margin:50px 0;
+}
+
+#contact h3 {
+  color: #F96;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin:5px 0 15px;
+  display:block;
+  font-size:13px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  width:100%;
+  border:1px solid #CCC;
+  background:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition:border-color 0.3s ease-in-out;
+  -moz-transition:border-color 0.3s ease-in-out;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid #AAA;
+}
+
+#contact textarea {
+  height:100px;
+  max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+  cursor:pointer;
+  width:100%;
+  border:none;
+  background:rgb(170, 0, 255);
+  color:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+  background:rgb(125, 5, 155);
+  -webkit-transition:background 0.3s ease-in-out;
+  -moz-transition:background 0.3s ease-in-out;
+  transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+  outline:0;
+  border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+  @media (min-width: 568px) {
+  .main-block {
+  flex-direction: row;
+  }
+}
+
+.Ourinfo{
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(19, 20, 17);
+  background-color: rgb(122, 46, 194);
+}
